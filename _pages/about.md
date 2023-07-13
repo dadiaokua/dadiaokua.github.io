@@ -1,4 +1,4 @@
----
+<!-- ---
 permalink: /
 title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
 excerpt: "About me"
@@ -47,4 +47,118 @@ Example: editing a markdown file for a talk
 
 For more info
 ------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
+
+
+---
+permalink: /
+title: "Jiahua Huang 黄嘉华"
+excerpt: "About me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
+## Research Interest
+I am interested in <u>edge computing</u> and <u>resource management</u>, with a special focus on <u>AI/GPU cluster management</u> with <u>machine learning</u> techniques.
+
+
+## Education
+<img src="../images/SCUT.png"
+     alt="SCUT"
+     style="float: left; margin-right: 10px; height: 50px; width:50px;"/>
+
+**South China University of Technology, Guangzhou, China**
+- Eng.D. in [Computer Science](http://www2.scut.edu.cn/ft/), advised by [Prof. Weiwei Ling](http://www2.scut.edu.cn/cs/2017/0629/c22284a328098/page.htm), Sep. 2023 -- Present
+
+<img src="../images/siat.jpg"
+     alt="SCUT"
+     style="float: left; margin-right: 10px; height: 50px; width:50px;"/>
+
+**Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China**
+- Master of Engineering, [Electronic Information](https://www.siat.ac.cn/), advised by [Prof. Yang Wang](https://teacher.ucas.ac.cn/~yangwang), Sep. 2020 -- Jun. 2023
+
+<img src="../images/jnu.jpeg"
+     alt="SCUT"
+     style="float: left; margin-right: 10px; height: 50px; width:50px;"/>
+
+**JiangNan University, Wuxi, China**
+- Bachelor of Engineering, [Digital Media Technology](http://ai.jiangnan.edu.cn/), Sep. 2015 -- Jun. 2019
+
+
+## Publications
+
+- [**[ATC \'23]**](https://www.usenix.org/conference/atc23/) **Beware of Fragmentation: Scheduling GPU-Sharing Workloads with Fragmentation Gradient Descent** [[paper]](./files/2023.ATC-FGD-Weng.pdf) [[slides]](./files/2023.ATC-FGD--slides.pdf) [[data]](https://github.com/alibaba/clusterdata/tree/master/cluster-trace-gpu-v2023) [[code]](https://github.com/hkust-adsl/kubernetes-scheduler-simulator) [[url]](https://www.usenix.org/conference/atc23/presentation/weng) [[bibtex]](./files/2023.ATC-FGD-Weng.txt)
+  - **Qizhen Weng\***, Lingyun Yang\* (co-first author), Yinghao Yu, Wei Wang, Xiaochuan Tang, Guodong Yang, and Liping Zhang
+  - in the Proceedings of the 2023 USENIX Annual Technical Conference, Boston, MA, July 2023.
+
+- [**[NSDI \'22]**](https://www.usenix.org/conference/nsdi22/) **MLaaS in the Wild: Workload Analysis and Scheduling in Large-Scale Heterogeneous GPU Clusters** [[paper]](./files/2022.NSDI-MLaaS-Weng.pdf) [[slides]](./files/2022.NSDI-MLaaS-Weng-slides.pdf) [[data]](https://github.com/alibaba/clusterdata/tree/master/cluster-trace-gpu-v2020) [[code]](https://github.com/alibaba/clusterdata/tree/master/cluster-trace-gpu-v2020/simulator) [[url]](https://www.usenix.org/conference/nsdi22/presentation/weng) [[bibtex]](./files/2022.NSDI-MLaaS-Weng.txt)
+  - **Qizhen Weng**, Wencong Xiao, Yinghao Yu, Wei Wang, Cheng Wang, Jian He, Yong Li, Liping Zhang, Wei Lin, and Yu Ding
+  - in the Proceedings of the 19th USENIX Symposium on Networked Systems Design and Implementation, Renton, WA, April 2022.
+
+- [**[SoCC \'22]**](https://acmsocc.github.io/2022/) **Workload Consolidation in Alibaba Clusters: The Good, the Bad, and the Ugly** [[paper]](./files/2022.SoCC-Alibaba-Zhang.pdf) [[slides]](./files/2022.SoCC-Alibaba-Zhang-slides.pdf) [[url]](https://dl.acm.org/doi/10.1145/3542929.3563465) [[bibtex]](./files/2022.SoCC-Alibaba-Zhang.txt)
+  - Yongkang Zhang, Yinghao Yu, Wei Wang, Qiukai Chen, Jie Wu, Zuowei Zhang, Jiang Zhong, Tianchen Ding, **Qizhen Weng**, Lingyun Yang, Cheng Wang, Jian He, Guodong Yang, and Liping Zhang
+  - in the Proceedings of ACM Symposium on Cloud Computing, San Francisco, CA, November 2022.
+
+- [**[TCC \'21]**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6245519) **Accelerating Distributed Learning in Non-Dedicated Environments** [[paper]](./files/2021.TCC-LBBSP-Chen.pdf) [[url]](https://ieeexplore.ieee.org/document/9508170) [[bibtex]](./files/2021.TCC-LBBSP-Chen.txt)
+  - Chen Chen, **Qizhen Weng**, Wei Wang, Baochun Li, and Bo Li,
+  - in IEEE Transactions on Cloud Computing, July 2021.
+
+- [**[SC \'20]**](https://sc20.supercomputing.org/) **Metis: Learning to Schedule Long-Running Applications in Shared Container Clusters at Scale** [[paper]](./files/2020.SC-Metis-Wang_Weng.pdf) [[slides]](./files/2020.SC-Metis-Wang_Weng-slides.pdf) [[code]](https://github.com/lwangbm/Metis) [[url]](https://ieeexplore.ieee.org/document/9355246) [[bibtex]](./files/2020.SC-Metis-Wang_Weng.txt)
+  - Luping Wang\*, **Qizhen Weng\* (co-first author)**, Wei Wang, Chen Chen, and Bo Li
+  - in the Proceedings of IEEE/ACM International Conference for High Performance Computing, Networking, Storage, and Analysis, Atlanta, GA, November 2020. 
+
+- [**[SoCC \'20]**](https://acmsocc.github.io/2020/) **Semi-Dynamic Load Balancing: Efficient Distributed Learning in Non-Dedicated Environments** [[paper]](./files/2020.SoCC-LBBSP-Chen.pdf) [[url]](https://dl.acm.org/doi/10.1145/3419111.3421299) [[bibtex]](./files/2020.SoCC-LBBSP-Chen.txt)
+  - Chen Chen, **Qizhen Weng**, Wei Wang, Baochun Li, and Bo Li
+  - in the Proceedings of ACM Symposium on Cloud Computing, Renton, WA, October 2020.
+
+- [**[APSys \'19]**](https://icsr.zju.edu.cn/apsys2019/) **Towards Framework-Independent, Non-Intrusive Performance Characterization for Dataflow Computation** [[paper]](./files/2019.ApSys-Perf-Tian.pdf) [[url]](https://dl.acm.org/doi/abs/10.1145/3343737.3343743) [[bibtex]](./files/2019.ApSys-Perf-Tian.txt)
+  - Huangshi Tian, **Qizhen Weng**, and Wei Wang
+  - in the Proceedings of ACM SIGOPS Asia-Pacific Workshop on Systems, Hangzhou, China, August 2019.
+
+<!--
+- **Cloud Management with Reinforcement Learning** [[paper]](./files/2019.Survey-Cloud_Mgmt_w_RL-Weng.pdf) [[slides]](./files/2019.Survey-Cloud_Mgmt_w_RL-Weng-slides.pdf) [[bibtex]](./files/2019.Survey-Cloud_Mgmt_w_RL-Weng.txt)
+  - **Qizhen Weng**
+  - survey paper for the Ph.D. Qualification Exam (PQE), CSE, HKUST, Hong Kong SAR, China, May 2019.
+-->
+
+- [**[SoCC \'18]**](https://acmsocc.github.io/2018/) **Fast Distributed Deep Learning via Worker-adaptive Batch Sizing** [[paper]](./files/2018.SoCC-LBBSP-Chen.pdf) [[url]](https://dl.acm.org/doi/abs/10.1145/3267809.3275463) [[bibtex]](./files/2018.SoCC-LBBSP-Chen.txt)
+  - Chen Chen, **Qizhen Weng**, Wei Wang, Baochun Li, and Bo Li
+  - poster paper in the Proceedings of ACM Symposium on Cloud Computing, Carlsbad, CA, October 2018.
+
+- [**[ICDCS \'18]**](https://icdcs2018.ocg.at/) **OpuS: Fair and Efficient Cache Sharing for In-Memory Data Analytics** [[paper]](./files/2018.ICDCS-OpuS-Yu.pdf) [[url]](https://ieeexplore.ieee.org/abstract/document/8416288/) [[bibtex]](./files/2018.ICDCS-OpuS-Yu.txt)
+  - Yinghao Yu, Wei Wang, Jun Zhang, **Qizhen Weng**, and Khaled B. Letaief
+  - in the Proceedings of IEEE International Conference on Distributed Computing Systems, Vienna, Austria, July 2018.
+
+- **Phishing Wi-Fi detection method** [[paper]](./files/2016.CNPatent-Phishing-CN106330935B-Hua.pdf) [[url]](https://epub.cnipa.gov.cn/patent/CN106330935B) [[bibtex]](files/2016.CNPatent-Phishing-CN106330935B-Hua.txt)
+  - Cunqing Hua, **Qizhen Weng**, Weixin Li, Zhaohui Jiang, and Kun Yang
+  - CN106330935B, China National Intellectual Property Administration, Aug 2016.
+
+
+## Experiences
+**[Shanghai AI Laboratory](https://shlab.org.cn), Shanghai**
+- System Researcher, Nov. 2022 -- Present
+
+**Alibaba Group, Hangzhou**
+- Research Intern, Oct. 2021 -- Oct. 2022
+
+**Alibaba Cloud, Hangzhou**
+- Research Intern, Jun. 2020 -- Sep. 2021
+
+**COMP4651: Cloud Computing and Big Data Systems, HKUST, HKSAR**
+- Teaching Assistant, Fall 2018, Fall 2019
+
+**SAP, Shanghai**
+- IT Support Intern, Jun. 2016 -- Dec. 2016
+
+
+## Awards and Fellowships
+**[Hong Kong Ph.D. Fellowship Award](https://cerg1.ugc.edu.hk/hkpfs/index.html)**
+- Research Grants Council (RGC) of Hong Kong, 2017 -- 2020
+
+**[Shanghai Outstanding Graduates (1%)](http://xsb.seiee.sjtu.edu.cn/xsb/info/12484.htm)**
+- Shanghai Municipal Education Commission, 2017
+
+**[Cyber-Security Scholarship](http://www.cidf.net/2016-05/20/c_1118905072.htm)**
+- China Internet Development Foundation (CIDF), 2016

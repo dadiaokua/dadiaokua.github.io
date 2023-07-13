@@ -51,11 +51,11 @@ More info about configuring academicpages can be found in [the guide](https://ac
 
 ## Email: jiah.huang@qq.com
 
-## Research Interest
+## <font color="#660000">Research Interest</font>
 I am interested in <u>cloud computing</u> and <u>resource management</u>, with a special focus on <u>edge resource management</u> with <u>AI</u> techniques.
 
 
-## Education
+## <font color="#660000">Education</font>
 <img src="../images/SCUT.png"
      alt="SCUT"
      style="float: left; margin-right: 10px; height: 50px; width:50px;"/>
@@ -78,7 +78,7 @@ I am interested in <u>cloud computing</u> and <u>resource management</u>, with a
 - Bachelor of Engineering, [Digital Media Technology](http://ai.jiangnan.edu.cn/), Sep. 2015 -- Jun. 2019
 
 
-## Publications
+## <font color="#660000">Publications</font>
 
 <!-- - [**[ATC \'23]**](https://www.usenix.org/conference/atc23/) **Beware of Fragmentation: Scheduling GPU-Sharing Workloads with Fragmentation Gradient Descent** [[paper]](./files/2023.ATC-FGD-Weng.pdf) [[slides]](./files/2023.ATC-FGD--slides.pdf) [[data]](https://github.com/alibaba/clusterdata/tree/master/cluster-trace-gpu-v2023) [[code]](https://github.com/hkust-adsl/kubernetes-scheduler-simulator) [[url]](https://www.usenix.org/conference/atc23/presentation/weng) [[bibtex]](./files/2023.ATC-FGD-Weng.txt)
   - **Qizhen Weng\***, Lingyun Yang\* (co-first author), Yinghao Yu, Wei Wang, Xiaochuan Tang, Guodong Yang, and Liping Zhang
@@ -90,7 +90,7 @@ I am interested in <u>cloud computing</u> and <u>resource management</u>, with a
 
 
 
-## Experiences
+## <font color="#660000">Experiences</font>
 **Alibaba Group, Hangzhou**
 - Research Intern, Oct. 2021 -- Oct. 2022
 
@@ -101,6 +101,6 @@ I am interested in <u>cloud computing</u> and <u>resource management</u>, with a
 - Software Engineer, Jul. 2019 -- Jun. 2020
 
 
-## Awards and Fellowships
-**[Siat Digital Institute Outstanding Student of the Year Award]**
+## <font color="#660000">Awards and Fellowships</font>
+**<font color="#dd0000">[Siat Digital Institute Outstanding Student of the Year Award]</font>**
 - Siat Digital Institute, 2022

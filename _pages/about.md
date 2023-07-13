@@ -50,7 +50,7 @@ For more info
 More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
 
 ## Research Interest
-I am interested in <u>edge computing</u> and <u>resource management</u>, with a special focus on <u>AI/GPU cluster management</u> with <u>machine learning</u> techniques.
+I am interested in <u>cloud computing</u> and <u>resource management</u>, with a special focus on <u>edge resource management</u> with <u>AI</u> techniques.
 
 
 ## Education
@@ -100,11 +100,5 @@ I am interested in <u>edge computing</u> and <u>resource management</u>, with a 
 
 
 ## Awards and Fellowships
-**[Hong Kong Ph.D. Fellowship Award](https://cerg1.ugc.edu.hk/hkpfs/index.html)**
-- Research Grants Council (RGC) of Hong Kong, 2017 -- 2020
-
-**[Shanghai Outstanding Graduates (1%)](http://xsb.seiee.sjtu.edu.cn/xsb/info/12484.htm)**
-- Shanghai Municipal Education Commission, 2017
-
-**[Cyber-Security Scholarship](http://www.cidf.net/2016-05/20/c_1118905072.htm)**
-- China Internet Development Foundation (CIDF), 2016
+**[Siat Digital Institute Outstanding Student of the Year Award]**
+- Siat Digital Institute, 2022

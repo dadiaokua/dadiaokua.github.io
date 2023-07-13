@@ -49,6 +49,8 @@ For more info
 ------
 More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
 
+## Email: jiah.huang@qq.com
+
 ## Research Interest
 I am interested in <u>cloud computing</u> and <u>resource management</u>, with a special focus on <u>edge resource management</u> with <u>AI</u> techniques.
 

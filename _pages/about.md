@@ -74,7 +74,7 @@ I am interested in <u>cloud computing</u> and <u>resource management</u>, with a
      alt="SCUT"
      style="float: left; margin-right: 10px; height: 50px; width:50px;"/>
 
-**JiangNan University, Wuxi, China**
+**Jiangnan University, Wuxi, China**
 - Bachelor of Engineering, [Digital Media Technology](http://ai.jiangnan.edu.cn/), Sep. 2015 -- Jun. 2019
 
 

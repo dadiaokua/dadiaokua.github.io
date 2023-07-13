@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Jiahua Huang"
-  avatar           : "profile.png"
+  avatar           : "hjh.jpg"
   bio              : "Eng.D in Computer Science, SCUT cooperate with PCL"
   location         : "Shenzhen, China"
   employer         :
@@ -107,7 +107,7 @@ author:
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            : "https://steamcommunity.com/profiles/76561198249832618/"
+  steam            : "/76561198249832618"
   tumblr           :
   twitter          : #"replacethistwitterhandle"
   vine             :

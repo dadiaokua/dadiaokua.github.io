@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Jiahua Huang"
   avatar           : "profile.png"
-  bio              : "Ph.D in Computer Science,SCUT"
+  bio              : "Ph.D in Computer Science, SCUT"
   location         : "Shenzhen, China"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "github.com/dadiaokua"
+  github           : "dadiaokua"
   google_plus      :
   keybase          :
   instagram        :
@@ -107,7 +107,7 @@ author:
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
+  steam            : "https://steamcommunity.com/profiles/76561198249832618/"
   tumblr           :
   twitter          : #"replacethistwitterhandle"
   vine             :

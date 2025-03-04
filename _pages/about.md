@@ -49,10 +49,10 @@ For more info
 ------
 More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
 
-## Email: jiah.huang@qq.com
+## Email: jiah.huang@foxmail.com
 
 ## <font color="#660000">Research Interest</font>
-I am interested in <u>cloud computing</u> and <u>resource management</u>, with a special focus on <u>edge resource management</u> with <u>AI</u> techniques.
+My expertise lies in <u>Machine Learning Systems (MLSys)</u> and <u>resource management</u>, with a specialized focus on enhancing Large Language Model inference through innovative AI methodologies.
 
 
 ## <font color="#660000">Education</font>
@@ -61,7 +61,7 @@ I am interested in <u>cloud computing</u> and <u>resource management</u>, with a
      style="float: left; margin-right: 10px; height: 50px; width:50px;"/>
 
 **South China University of Technology, Guangzhou, China**
-- Eng.D. in [Computer Science](http://www2.scut.edu.cn/ft/), advised by [Prof. Weiwei Ling](http://www2.scut.edu.cn/cs/2017/0629/c22284a328098/page.htm), Sep. 2023 -- Present
+- Ph.D. in [Computer Science](http://www2.scut.edu.cn/ft/), advised by [Prof. Weiwei Ling](http://www2.scut.edu.cn/cs/2017/0629/c22284a328098/page.htm), Sep. 2023 -- Present
 
 <img src="../images/siat.jpg"
      alt="SCUT"

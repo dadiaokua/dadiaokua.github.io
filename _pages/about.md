@@ -82,11 +82,12 @@ I am interested in <u>cloud computing</u> and <u>resource management</u>, with a
 
 <!-- - [**[ATC \'23]**](https://www.usenix.org/conference/atc23/) **Beware of Fragmentation: Scheduling GPU-Sharing Workloads with Fragmentation Gradient Descent** [[paper]](./files/2023.ATC-FGD-Weng.pdf) [[slides]](./files/2023.ATC-FGD--slides.pdf) [[data]](https://github.com/alibaba/clusterdata/tree/master/cluster-trace-gpu-v2023) [[code]](https://github.com/hkust-adsl/kubernetes-scheduler-simulator) [[url]](https://www.usenix.org/conference/atc23/presentation/weng) [[bibtex]](./files/2023.ATC-FGD-Weng.txt)
   - **Qizhen Weng\***, Lingyun Yang\* (co-first author), Yinghao Yu, Wei Wang, Xiaochuan Tang, Guodong Yang, and Liping Zhang
-  - in the Proceedings of the 2023 USENIX Annual Technical Conference, Boston, MA, July 2023.
+  - in the Proceedings of the 2023 USENIX Annual Technical Conference, Boston, MA, July 2023. -->
 
-- [**[NSDI \'22]**](https://www.usenix.org/conference/nsdi22/) **MLaaS in the Wild: Workload Analysis and Scheduling in Large-Scale Heterogeneous GPU Clusters** [[paper]](./files/2022.NSDI-MLaaS-Weng.pdf) [[slides]](./files/2022.NSDI-MLaaS-Weng-slides.pdf) [[data]](https://github.com/alibaba/clusterdata/tree/master/cluster-trace-gpu-v2020) [[code]](https://github.com/alibaba/clusterdata/tree/master/cluster-trace-gpu-v2020/simulator) [[url]](https://www.usenix.org/conference/nsdi22/presentation/weng) [[bibtex]](./files/2022.NSDI-MLaaS-Weng.txt)
-  - **Qizhen Weng**, Wencong Xiao, Yinghao Yu, Wei Wang, Cheng Wang, Jian He, Yong Li, Liping Zhang, Wei Lin, and Yu Ding
-  - in the Proceedings of the 19th USENIX Symposium on Networked Systems Design and Implementation, Renton, WA, April 2022. -->
+- [**[CSUR \'25]**](https://dl.acm.org/journal/csur) **On Efficiency, Fairness and Security in AI Accelerator Resource Sharing: A Survey** [[paper]](./files/On_Efficiency__Fairness_and_Security_in_AI_Accelerator_Resource_Sharing__A_Survey.pdf) [[url]](https://dl.acm.org/doi/10.1145/3721427)
+<!-- [[slides]](./files/2022.NSDI-MLaaS-Weng-slides.pdf) [[data]](https://github.com/alibaba/clusterdata/tree/master/cluster-trace-gpu-v2020) [[code]](https://github.com/alibaba/clusterdata/tree/master/cluster-trace-gpu-v2020/simulator) [[url]](https://www.usenix.org/conference/nsdi22/presentation/weng) [[bibtex]](./files/2022.NSDI-MLaaS-Weng.txt) -->
+  - **Jiahua Huang**, Weiwei Lin,Wentai Wu,Yang Wang,Haocheng Zhong,Xinhua Wang,Keqin Li
+  - ACM Computing Surveys, Accepted on 24 February 2025.
 
 
 

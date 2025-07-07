@@ -89,7 +89,9 @@ My expertise lies in <u>Machine Learning Systems (MLSys)</u> and <u>resource man
   - **Jiahua Huang**, Weiwei Lin,Wentai Wu,Yang Wang,Haocheng Zhong,Xinhua Wang,Keqin Li
   - ACM Computing Surveys, Accepted on 24 February 2025.
 
-
+## <font color="#660000">Project</font>
+- [**[vllm-benchmark]**](https://github.com/dadiaokua/vllm_benchmark) 
+  - Scripts for benchmarking the performance of large language models (LLMs) served using vLLM. It's designed to test the scalability and performance of LLM deployments under various concurrency levels and scheduling strategies.
 
 ## <font color="#660000">Experiences</font>
 **Alibaba Group, Hangzhou**

@@ -90,8 +90,8 @@ My expertise lies in <u>Machine Learning Systems (MLSys)</u> and <u>resource man
   - ACM Computing Surveys, Accepted on 24 February 2025.
 
 ## <font color="#660000">Project</font>
-- [**[vllm-benchmark]**](https://github.com/dadiaokua/vllm_benchmark) 
-  - Scripts for benchmarking the performance of large language models (LLMs) served using vLLM. It's designed to test the scalability and performance of LLM deployments under various concurrency levels and scheduling strategies.
+- [**[ExFairS]**](https://github.com/dadiaokua/ExFairS) 
+  - ExFairS is a novel scheduling paradigm designed for Large Language Model (LLM) inference services, aiming to bridge the core gap between system-level performance metrics and the actual user experience.
 
 ## <font color="#660000">Experiences</font>
 **Alibaba Group, Hangzhou**

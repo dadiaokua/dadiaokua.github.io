@@ -87,8 +87,8 @@ I am actively seeking an internship in LLM inference optimization. Please feel f
 
 - [**[AAAI \'26]**](https://aaai.org/conference/aaai/aaai-26/) **Experiential Fairness: Bridging the Gap between User Experience and Resource-Centric Fairness in Online LLM Services** [[url]](https://github.com/dadiaokua/ExFairS)
 <!-- [[slides]](./files/2022.NSDI-MLaaS-Weng-slides.pdf) [[data]](https://github.com/alibaba/clusterdata/tree/master/cluster-trace-gpu-v2020) [[code]](https://github.com/alibaba/clusterdata/tree/master/cluster-trace-gpu-v2020/simulator) [[url]](https://www.usenix.org/conference/nsdi22/presentation/weng) [[bibtex]](./files/2022.NSDI-MLaaS-Weng.txt) -->
-- **Jiahua Huang**, Wentai Wu, Yongheng Liu, Guozhi Liu, Yang Wang, Weiwei Lin
-- The 40th Annual AAAI Conference on Artificial Intelligence, Accepted on 08 Nov 2025.
+  - **Jiahua Huang**, Wentai Wu, Yongheng Liu, Guozhi Liu, Yang Wang, Weiwei Lin
+  - The 40th Annual AAAI Conference on Artificial Intelligence, Accepted on 08 Nov 2025.
 
 - [**[CSUR \'25]**](https://dl.acm.org/journal/csur) **On Efficiency, Fairness and Security in AI Accelerator Resource Sharing: A Survey** [[paper]](./files/On_Efficiency__Fairness_and_Security_in_AI_Accelerator_Resource_Sharing__A_Survey.pdf) [[url]](https://dl.acm.org/doi/10.1145/3721427)
 <!-- [[slides]](./files/2022.NSDI-MLaaS-Weng-slides.pdf) [[data]](https://github.com/alibaba/clusterdata/tree/master/cluster-trace-gpu-v2020) [[code]](https://github.com/alibaba/clusterdata/tree/master/cluster-trace-gpu-v2020/simulator) [[url]](https://www.usenix.org/conference/nsdi22/presentation/weng) [[bibtex]](./files/2022.NSDI-MLaaS-Weng.txt) -->

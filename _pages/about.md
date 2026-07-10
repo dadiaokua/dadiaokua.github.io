@@ -85,19 +85,46 @@ I am actively seeking an internship in LLM inference optimization. Please feel f
   - **Qizhen Weng\***, Lingyun Yang\* (co-first author), Yinghao Yu, Wei Wang, Xiaochuan Tang, Guodong Yang, and Liping Zhang
   - in the Proceedings of the 2023 USENIX Annual Technical Conference, Boston, MA, July 2023. -->
 
-- [**[AAAI \'26]**](https://aaai.org/conference/aaai/aaai-26/) **Experiential Fairness: Bridging the Gap between User Experience and Resource-Centric Fairness in Online LLM Services** [[paper]](./files/AuthorKit26_1.pdf)[[poster]](./files/ExFairS Poster.pdf)[[code]](https://github.com/dadiaokua/ExFairS)
+- [**[AAAI \'26]**](https://aaai.org/conference/aaai/aaai-26/) **Experiential Fairness: Bridging the Gap between User Experience and Resource-Centric Fairness in Online LLM Services** [[paper]](./files/AuthorKit26_1.pdf) [[poster]](./files/ExFairS Poster.pdf) [[code]](https://github.com/dadiaokua/ExFairS)
 <!-- [[slides]](./files/2022.NSDI-MLaaS-Weng-slides.pdf) [[data]](https://github.com/alibaba/clusterdata/tree/master/cluster-trace-gpu-v2020) [[code]](https://github.com/alibaba/clusterdata/tree/master/cluster-trace-gpu-v2020/simulator) [[url]](https://www.usenix.org/conference/nsdi22/presentation/weng) [[bibtex]](./files/2022.NSDI-MLaaS-Weng.txt) -->
   - **Jiahua Huang**, Wentai Wu*, Yongheng Liu, Guozhi Liu, Yang Wang, Weiwei Lin*
-  - The 40th Annual AAAI Conference on Artificial Intelligence, Accepted on 08 Nov 2025.
+  - The 40th Annual AAAI Conference on Artificial Intelligence (CCF-A), Accepted on 08 Nov 2025.
 
 - [**[CSUR \'25]**](https://dl.acm.org/journal/csur) **On Efficiency, Fairness and Security in AI Accelerator Resource Sharing: A Survey** [[paper]](./files/On_Efficiency__Fairness_and_Security_in_AI_Accelerator_Resource_Sharing__A_Survey.pdf) [[url]](https://dl.acm.org/doi/10.1145/3721427)
 <!-- [[slides]](./files/2022.NSDI-MLaaS-Weng-slides.pdf) [[data]](https://github.com/alibaba/clusterdata/tree/master/cluster-trace-gpu-v2020) [[code]](https://github.com/alibaba/clusterdata/tree/master/cluster-trace-gpu-v2020/simulator) [[url]](https://www.usenix.org/conference/nsdi22/presentation/weng) [[bibtex]](./files/2022.NSDI-MLaaS-Weng.txt) -->
-  - **Jiahua Huang**, Weiwei Lin*,Wentai Wu,Yang Wang,Haocheng Zhong,Xinhua Wang,Keqin Li
-  - ACM Computing Surveys, Accepted on 24 Feb 2025.
+  - **Jiahua Huang**, Weiwei Lin*, Wentai Wu, Yang Wang, Haocheng Zhong, Xinhua Wang, Keqin Li
+  - ACM Computing Surveys (SCI Q1 Top, IF 23.8), Accepted on 24 Feb 2025.
 
 ## <font color="#660000">Project</font>
-- [**[ExFairS]**](https://github.com/dadiaokua/ExFairS) 
-  - ExFairS is a novel scheduling paradigm designed for Large Language Model (LLM) inference services, aiming to bridge the core gap between system-level performance metrics and the actual user experience.
+<img src="../images/projects/ecomoe.png"
+     alt="EcoMoE clock sensitivity figure"
+     style="float: right; margin-left: 12px; margin-bottom: 12px; width: 220px; border: 1px solid #d8d8d8; border-radius: 6px;"/>
+
+- **EcoMoE** — SLO-aware energy optimization for offloaded MoE inference (HPCA '27 submission)
+  - We identify a thick memory-access wall in MoE decode by combining `SM_ACTIVE` vs. NVML utilization mismatch, load ramps, cache sweeps, and byte-level HBM/PCIe accounting, showing that the bottleneck comes from the expert-weight access path rather than low load.
+  - Locked-clock sweeps then show why this wall is useful for DVFS: MoE decode has a broad latency-flat region, while dense LLM decode is much more clock-sensitive and therefore offers far less safe downclocking headroom.
+
+<div style="clear: both;"></div>
+
+<img src="../images/projects/pace.png"
+     alt="PACE KV working set figure"
+     style="float: right; margin-left: 12px; margin-bottom: 12px; width: 220px; border: 1px solid #d8d8d8; border-radius: 6px;"/>
+
+- **PACE** — KV-working-set-aware GPU DVFS for LLM serving (ATC '26 submission)
+  - We show that decode-time energy in continuous batching tracks the active KV working set, exposing memory pressure that active batch size alone cannot describe.
+  - Based on this signal, PACE is a lightweight feedforward controller that uses only runtime scheduler state to reduce decode energy while preserving tail-latency SLOs.
+
+<div style="clear: both;"></div>
+
+<img src="../images/projects/exfairs.png"
+     alt="ExFairS method figure"
+     style="float: right; margin-left: 12px; margin-bottom: 12px; width: 220px; border: 1px solid #d8d8d8; border-radius: 6px;"/>
+
+- [**ExFairS**](https://github.com/dadiaokua/ExFairS)
+  - ExFairS is a scheduling framework for online LLM services that bridges the gap between system-centric fairness metrics and actual user experience.
+  - It introduces an SLO-aware fairness score and combines credit exchange with a priority queue to improve user-perceived service quality.
+
+<div style="clear: both;"></div>
 
 ## <font color="#660000">Experiences</font>
 **Alibaba Group, Hangzhou**

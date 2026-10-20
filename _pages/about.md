@@ -54,7 +54,7 @@ More info about configuring academicpages can be found in [the guide](https://ac
 ## <font color="#660000">Research Interest</font>
 My expertise lies in <u>Machine Learning Systems (MLSys)</u> and <u>resource management</u>, with a specialized focus on enhancing Large Language Model inference through innovative AI methodologies.
 
-I am also an **[SGLang contributor](https://github.com/sgl-project/sglang/pull/44634)**. My original implementation of opt-in pi0.5 completion-boundary action batching and resumable denoising was integrated upstream through merged PR [#44634](https://github.com/sgl-project/sglang/pull/44634), continuing [#43528](https://github.com/sgl-project/sglang/pull/43528) with maintainer review fixes and preserved authorship.
+I am also an **[SGLang contributor](https://github.com/sgl-project/sglang/pull/44634)**.
 
 I am actively seeking an internship in LLM inference optimization. Please feel free to reach out if you have or know of any suitable opportunities. I'm always open to connecting with professionals in the field.
 
@@ -99,7 +99,7 @@ I am actively seeking an internship in LLM inference optimization. Please feel f
 
 ## <font color="#660000">Project</font>
 
-- **RONDO: Segment-Level Continuous Batching for Multi-Tenant Flow-VLA Serving** (under review at ICLR 2027)
+- **RONDO: Segment-Level Continuous Batching for Multi-Tenant Flow-VLA Serving** — **Core execution merged into [SGLang main](https://github.com/sgl-project/sglang/pull/44634)** (under review at ICLR 2027)
   - RONDO addresses heterogeneous denoising budgets in shared robot inference: whole-trajectory batching blocks new requests, while step-level batching incurs excessive host scheduling overhead. Resumable accelerator-resident execution, completion-boundary segmentation, and dynamic remaining-work bucketing enable efficient regrouping across trajectories.
   - Evaluated with pi0.5 on 8 Ascend 910C NPUs, the research system reduces mean serving latency by up to 75.2% relative to Native. In LIBERO closed-loop simulations with 16–32 concurrent robots, it achieves up to 92.3% task success and a 4–5× improvement over serving baselines.
   - **Upstream contribution:** [SGLang #44634](https://github.com/sgl-project/sglang/pull/44634) integrates the opt-in completion-boundary batching and resumable execution path, preserving my original implementation and authorship from [#43528](https://github.com/sgl-project/sglang/pull/43528). Dynamic bucketing and the research performance results are not claims about this upstream implementation.
@@ -110,7 +110,7 @@ I am actively seeking an internship in LLM inference optimization. Please feel f
      decoding="async"
      style="float: right; margin-left: 12px; margin-bottom: 12px; width: 220px; border: 1px solid #d8d8d8; border-radius: 6px;"/>
 
-- **EcoMoE** — SLO-aware energy optimization for offloaded MoE inference (HPCA '27 submission)
+- **EcoMoE** — SLO-aware energy optimization for offloaded MoE inference (TC submission)
   - We identify a thick memory-access wall in MoE decode by combining `SM_ACTIVE` vs. NVML utilization mismatch, load ramps, cache sweeps, and byte-level HBM/PCIe accounting, showing that the bottleneck comes from the expert-weight access path rather than low load.
   - Locked-clock sweeps then show why this wall is useful for DVFS: MoE decode has a broad latency-flat region, while dense LLM decode is much more clock-sensitive and therefore offers far less safe downclocking headroom.
 

@@ -54,6 +54,8 @@ More info about configuring academicpages can be found in [the guide](https://ac
 ## <font color="#660000">Research Interest</font>
 My expertise lies in <u>Machine Learning Systems (MLSys)</u> and <u>resource management</u>, with a specialized focus on enhancing Large Language Model inference through innovative AI methodologies.
 
+I am also an **[SGLang contributor](https://github.com/sgl-project/sglang/pull/44634)**. My original implementation of opt-in pi0.5 completion-boundary action batching and resumable denoising was integrated upstream through merged PR [#44634](https://github.com/sgl-project/sglang/pull/44634), continuing [#43528](https://github.com/sgl-project/sglang/pull/43528) with maintainer review fixes and preserved authorship.
+
 I am actively seeking an internship in LLM inference optimization. Please feel free to reach out if you have or know of any suitable opportunities. I'm always open to connecting with professionals in the field.
 
 ## <font color="#660000">Education</font>
@@ -93,11 +95,19 @@ I am actively seeking an internship in LLM inference optimization. Please feel f
 - [**[CSUR \'25]**](https://dl.acm.org/journal/csur) **On Efficiency, Fairness and Security in AI Accelerator Resource Sharing: A Survey** [[paper]](./files/On_Efficiency__Fairness_and_Security_in_AI_Accelerator_Resource_Sharing__A_Survey.pdf) [[url]](https://dl.acm.org/doi/10.1145/3721427)
 <!-- [[slides]](./files/2022.NSDI-MLaaS-Weng-slides.pdf) [[data]](https://github.com/alibaba/clusterdata/tree/master/cluster-trace-gpu-v2020) [[code]](https://github.com/alibaba/clusterdata/tree/master/cluster-trace-gpu-v2020/simulator) [[url]](https://www.usenix.org/conference/nsdi22/presentation/weng) [[bibtex]](./files/2022.NSDI-MLaaS-Weng.txt) -->
   - **Jiahua Huang**, Weiwei Lin*, Wentai Wu, Yang Wang, Haocheng Zhong, Xinhua Wang, Keqin Li
-  - ACM Computing Surveys (SCI Q1 Top, IF 23.8), Accepted on 24 Feb 2025.
+  - ACM Computing Surveys (SCI Q1 Top, IF 30.8), Accepted on 24 Feb 2025.
 
 ## <font color="#660000">Project</font>
+
+- **RONDO: Segment-Level Continuous Batching for Multi-Tenant Flow-VLA Serving** (under review at ICLR 2027)
+  - RONDO addresses heterogeneous denoising budgets in shared robot inference: whole-trajectory batching blocks new requests, while step-level batching incurs excessive host scheduling overhead. Resumable accelerator-resident execution, completion-boundary segmentation, and dynamic remaining-work bucketing enable efficient regrouping across trajectories.
+  - Evaluated with pi0.5 on 8 Ascend 910C NPUs, the research system reduces mean serving latency by up to 75.2% relative to Native. In LIBERO closed-loop simulations with 16–32 concurrent robots, it achieves up to 92.3% task success and a 4–5× improvement over serving baselines.
+  - **Upstream contribution:** [SGLang #44634](https://github.com/sgl-project/sglang/pull/44634) integrates the opt-in completion-boundary batching and resumable execution path, preserving my original implementation and authorship from [#43528](https://github.com/sgl-project/sglang/pull/43528). Dynamic bucketing and the research performance results are not claims about this upstream implementation.
+
 <img src="../images/projects/ecomoe.png"
      alt="EcoMoE clock sensitivity figure"
+     loading="lazy"
+     decoding="async"
      style="float: right; margin-left: 12px; margin-bottom: 12px; width: 220px; border: 1px solid #d8d8d8; border-radius: 6px;"/>
 
 - **EcoMoE** — SLO-aware energy optimization for offloaded MoE inference (HPCA '27 submission)
@@ -108,9 +118,11 @@ I am actively seeking an internship in LLM inference optimization. Please feel f
 
 <img src="../images/projects/pace.png"
      alt="PACE KV working set figure"
+     loading="lazy"
+     decoding="async"
      style="float: right; margin-left: 12px; margin-bottom: 12px; width: 220px; border: 1px solid #d8d8d8; border-radius: 6px;"/>
 
-- **PACE** — KV-working-set-aware GPU DVFS for LLM serving (ATC '26 submission)
+- **PACE** — KV-working-set-aware GPU DVFS for LLM serving (ASPLOS '27 submission)
   - We show that decode-time energy in continuous batching tracks the active KV working set, exposing memory pressure that active batch size alone cannot describe.
   - Based on this signal, PACE is a lightweight feedforward controller that uses only runtime scheduler state to reduce decode energy while preserving tail-latency SLOs.
 
@@ -118,6 +130,8 @@ I am actively seeking an internship in LLM inference optimization. Please feel f
 
 <img src="../images/projects/exfairs.png"
      alt="ExFairS method figure"
+     loading="lazy"
+     decoding="async"
      style="float: right; margin-left: 12px; margin-bottom: 12px; width: 220px; border: 1px solid #d8d8d8; border-radius: 6px;"/>
 
 - [**ExFairS**](https://github.com/dadiaokua/ExFairS)

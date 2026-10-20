@@ -100,7 +100,7 @@ I am actively seeking an internship in LLM inference optimization. Please feel f
 - **RONDO: Segment-Level Continuous Batching for Multi-Tenant Flow-VLA Serving** — **Core execution merged into [SGLang main](https://github.com/sgl-project/sglang/pull/44634)** (under review at ICLR 2027)
   - RONDO addresses heterogeneous denoising budgets in shared robot inference: whole-trajectory batching blocks new requests, while step-level batching incurs excessive host scheduling overhead. Resumable accelerator-resident execution, completion-boundary segmentation, and dynamic remaining-work bucketing enable efficient regrouping across trajectories.
   - Evaluated with pi0.5 on 8 Ascend 910C NPUs, the research system reduces mean serving latency by up to 75.2% relative to Native. In LIBERO closed-loop simulations with 16–32 concurrent robots, it achieves up to 92.3% task success and a 4–5× improvement over serving baselines.
-  - **Upstream contribution:** [SGLang #44634](https://github.com/sgl-project/sglang/pull/44634) integrates the opt-in completion-boundary batching and resumable execution path, preserving my original implementation and authorship from [#43528](https://github.com/sgl-project/sglang/pull/43528). Dynamic bucketing and the research performance results are not claims about this upstream implementation.
+  - Completion-boundary batching and resumable execution are available in SGLang ([#44634](https://github.com/sgl-project/sglang/pull/44634)).
 
 <img src="../images/projects/ecomoe.png"
      alt="EcoMoE clock sensitivity figure"

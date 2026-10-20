@@ -52,9 +52,7 @@ More info about configuring academicpages can be found in [the guide](https://ac
 ## Email: jiah.huang@foxmail.com
 
 ## <font color="#660000">Research Interest</font>
-My expertise lies in <u>Machine Learning Systems (MLSys)</u> and <u>resource management</u>, with a specialized focus on enhancing Large Language Model inference through innovative AI methodologies.
-
-I am also an **[SGLang contributor](https://github.com/sgl-project/sglang/pull/44634)**.
+My expertise lies in <u>Machine Learning Systems (MLSys)</u> and <u>resource management</u>, with a specialized focus on enhancing Large Language Model inference through innovative AI methodologies. I am also an **[SGLang contributor](https://github.com/sgl-project/sglang/pull/44634)**.
 
 I am actively seeking an internship in LLM inference optimization. Please feel free to reach out if you have or know of any suitable opportunities. I'm always open to connecting with professionals in the field.
 

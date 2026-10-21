@@ -97,7 +97,7 @@ I am actively seeking an internship in LLM inference optimization. Please feel f
 
 ## <font color="#660000">Project</font>
 
-- **RONDO: Segment-Level Continuous Batching for Multi-Tenant Flow-VLA Serving** — **Core execution merged into [SGLang main](https://github.com/sgl-project/sglang/pull/44634)** (under review at ICLR 2027)
+- **RONDO: Segment-Level Continuous Batching for Multi-Tenant Flow-VLA Serving** — **Core execution merged into [SGLang main](https://github.com/sgl-project/sglang/pull/44634)**
   - RONDO addresses heterogeneous denoising budgets in shared robot inference: whole-trajectory batching blocks new requests, while step-level batching incurs excessive host scheduling overhead. Resumable accelerator-resident execution, completion-boundary segmentation, and dynamic remaining-work bucketing enable efficient regrouping across trajectories.
   - Evaluated with pi0.5 on 8 Ascend 910C NPUs, the research system reduces mean serving latency by up to 75.2% relative to Native. In LIBERO closed-loop simulations with 16–32 concurrent robots, it achieves up to 92.3% task success and a 4–5× improvement over serving baselines.
   - Completion-boundary batching and resumable execution are available in SGLang ([#44634](https://github.com/sgl-project/sglang/pull/44634)).
@@ -108,7 +108,7 @@ I am actively seeking an internship in LLM inference optimization. Please feel f
      decoding="async"
      style="float: right; margin-left: 12px; margin-bottom: 12px; width: 220px; border: 1px solid #d8d8d8; border-radius: 6px;"/>
 
-- **EcoMoE** — SLO-aware energy optimization for offloaded MoE inference (TC submission)
+- **EcoMoE** — SLO-aware energy optimization for offloaded MoE inference
   - We identify a thick memory-access wall in MoE decode by combining `SM_ACTIVE` vs. NVML utilization mismatch, load ramps, cache sweeps, and byte-level HBM/PCIe accounting, showing that the bottleneck comes from the expert-weight access path rather than low load.
   - Locked-clock sweeps then show why this wall is useful for DVFS: MoE decode has a broad latency-flat region, while dense LLM decode is much more clock-sensitive and therefore offers far less safe downclocking headroom.
 
@@ -120,7 +120,7 @@ I am actively seeking an internship in LLM inference optimization. Please feel f
      decoding="async"
      style="float: right; margin-left: 12px; margin-bottom: 12px; width: 220px; border: 1px solid #d8d8d8; border-radius: 6px;"/>
 
-- **PACE** — KV-working-set-aware GPU DVFS for LLM serving (ASPLOS '27 submission)
+- **PACE** — KV-working-set-aware GPU DVFS for LLM serving
   - We show that decode-time energy in continuous batching tracks the active KV working set, exposing memory pressure that active batch size alone cannot describe.
   - Based on this signal, PACE is a lightweight feedforward controller that uses only runtime scheduler state to reduce decode energy while preserving tail-latency SLOs.
 

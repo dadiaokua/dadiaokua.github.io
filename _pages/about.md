@@ -95,6 +95,14 @@ I am actively seeking an internship in LLM inference optimization. Please feel f
   - **Jiahua Huang**, Weiwei Lin*, Wentai Wu, Yang Wang, Haocheng Zhong, Xinhua Wang, Keqin Li
   - ACM Computing Surveys (SCI Q1 Top, IF 30.8), Accepted on 24 Feb 2025.
 
+- **[IPCCC] When Does Decomposition Help? Empirical Study on Workload-Architecture Affinity in LLM Inference Serving**
+  - Jihui Yang, Wentai Wu, **Jiahua Huang**\*, Weiwei Lin, Ligang He, Linghong Tsang
+  - IEEE International Performance, Computing, and Communications Conference.
+
+- **[CLOUD '22] Hestia: A Cost-Effective Multi-dimensional Resource Utilization for Microservices Execution in the Cloud** [[paper]](https://link.springer.com/chapter/10.1007/978-3-031-23498-9_3)
+  - **Jiahua Huang**, Kenneth B. Kent, Jerome Yen, Yang Wang
+  - Cloud Computing - CLOUD 2022, LNCS 13731, pp. 22–38, 2022.
+
 ## <font color="#660000">Project</font>
 
 - **RONDO: Segment-Level Continuous Batching for Multi-Tenant Flow-VLA Serving** — **Core execution merged into [SGLang main](https://github.com/sgl-project/sglang/pull/44634)**

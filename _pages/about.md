@@ -128,7 +128,7 @@ I am actively seeking an internship in LLM inference optimization. Please feel f
      decoding="async"
      style="float: right; margin-left: 12px; margin-bottom: 12px; width: 220px; border: 1px solid #d8d8d8; border-radius: 6px;"/>
 
-- **PACE** — KV-working-set-aware GPU DVFS for LLM serving
+- **PACE** — KV-working-set-aware GPU DVFS for LLM serving [[code]](https://github.com/dadiaokua/PACE)
   - We show that decode-time energy in continuous batching tracks the active KV working set, exposing memory pressure that active batch size alone cannot describe.
   - Based on this signal, PACE is a lightweight feedforward controller that uses only runtime scheduler state to reduce decode energy while preserving tail-latency SLOs.
 
